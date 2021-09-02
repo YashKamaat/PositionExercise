@@ -122,8 +122,14 @@ body {
 }
 
 /* 8 */
-#one #two {
+h1 {
     position: sticky;
-    top: 20;
-    
-}
+    top: 0;
+    z-index: 1;
+  }
+   
+  /* Bonus */
+  h2 {
+    position: sticky;
+    top: 65px;
+  }
