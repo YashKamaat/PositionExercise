@@ -1,0 +1,129 @@
+body {
+    background: #002754;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    background: #002754;
+    display: inline-block;
+  }
+  
+  h2 {
+    text-decoration: underline;
+    background: #7B6FDE;
+    width: 20%;
+    margin: auto;
+  }
+  
+  div {
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  section {
+    width: 50vw;
+    height: 20vw;
+    margin: auto;
+    /* margin-bottom: 100px; */
+  }
+  
+  #one {
+    background: rgb(200,60,60);
+  }
+  
+  #two {
+    font-weight: 400;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  
+  #space {
+    background: #266ef6;
+  }
+  
+  #power {
+    background: #e429f2;
+  }
+  
+  #soul {
+    background: #ff8b00;
+  }
+  
+  #reality {
+    background: #ff0130;
+  }
+  
+  #mind {
+    background: #ffd300;
+  }
+  
+  #time {
+    background: #12e772;
+  }
+  
+  #scroll {
+    margin-bottom: 2000px;
+  }
+  
+  /* START BELOW THIS LINE */
+
+  /* DEFAULT POSITION ALL HTML START OFF WITH */
+
+  /* 1 */
+  /* Static is the default position */
+  /* position: static; */
+
+  /* 2 */
+  #power {
+      position: relative;
+      right: 225px;
+  }
+
+  /* 3 */
+  #space {
+      position: relative;
+      right: 115px;
+      top: 115px;
+  }
+
+  /* 4 */
+  #soul {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+
+  /* 5 */
+  #reality {
+      position: absolute;
+      right: 0px;
+      bottom: 140px;
+  }
+
+  /* 6 */
+#mind {
+    position: fixed;
+    right: 0px;
+    top: 140px;
+}
+  /* 7 */
+#time {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+/* 8 */
+#one #two {
+    position: sticky;
+    top: 20;
+    
+}
