@@ -5,116 +5,125 @@ body {
     color: white;
     text-align: center;
     font-size: 25px;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-transform: uppercase;
     background: #002754;
     display: inline-block;
-  }
-  
-  h2 {
+}
+
+h2 {
     text-decoration: underline;
     background: #7B6FDE;
     width: 20%;
     margin: auto;
-  }
-  
-  div {
+}
+
+div {
     padding: 20px;
     width: 65px;
     height: 65px;
     border-radius: 50px;
     display: inline-block;
-  }
-  
-  section {
+}
+
+section {
     width: 50vw;
     height: 20vw;
     margin: auto;
     /* margin-bottom: 100px; */
-  }
-  
-  #one {
-    background: rgb(200,60,60);
-  }
-  
-  #two {
+}
+
+#one {
+    background: rgb(200, 60, 60);
+}
+
+#two {
     font-weight: 400;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-  }
-  
-  #space {
+}
+
+#space {
     background: #266ef6;
-  }
-  
-  #power {
+}
+
+#power {
     background: #e429f2;
-  }
-  
-  #soul {
+}
+
+#soul {
     background: #ff8b00;
-  }
-  
-  #reality {
+}
+
+#reality {
     background: #ff0130;
-  }
-  
-  #mind {
+}
+
+#mind {
     background: #ffd300;
-  }
-  
-  #time {
+}
+
+#time {
     background: #12e772;
-  }
-  
-  #scroll {
+}
+
+#scroll {
     margin-bottom: 2000px;
-  }
-  
-  /* START BELOW THIS LINE */
+}
 
-  /* DEFAULT POSITION ALL HTML START OFF WITH */
+/* START BELOW THIS LINE */
 
-  /* 1 */
-  /* Static is the default position */
-  /* position: static; */
+/* DEFAULT POSITION ALL HTML START OFF WITH */
 
-  /* 2 */
-  #power {
-      position: relative;
-      right: 225px;
-  }
+/* 1 */
 
-  /* 3 */
-  #space {
-      position: relative;
-      right: 115px;
-      top: 115px;
-  }
+/* Static is the default position */
 
-  /* 4 */
-  #soul {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-  }
+/* position: static; */
 
-  /* 5 */
-  #reality {
-      position: absolute;
-      right: 0px;
-      bottom: 140px;
-  }
+/* 2 */
 
-  /* 6 */
+#power {
+    position: relative;
+    right: 225px;
+}
+
+/* 3 */
+
+#space {
+    position: relative;
+    right: 115px;
+    top: 115px;
+}
+
+/* 4 */
+
+#soul {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* 5 */
+
+#reality {
+    position: absolute;
+    right: 0px;
+    bottom: 140px;
+}
+
+/* 6 */
+
 #mind {
     position: fixed;
     right: 0px;
     top: 140px;
 }
-  /* 7 */
+
+/* 7 */
+
 #time {
     position: fixed;
     right: 0px;
@@ -122,14 +131,16 @@ body {
 }
 
 /* 8 */
+
 h1 {
     position: sticky;
     top: 0;
     z-index: 1;
-  }
-   
-  /* Bonus */
-  h2 {
+}
+
+/* Bonus */
+
+h2 {
     position: sticky;
     top: 65px;
-  }
+}
