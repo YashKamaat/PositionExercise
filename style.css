@@ -111,7 +111,7 @@ section {
 #reality {
     position: absolute;
     right: 0px;
-    bottom: 140px;
+    bottom: 150px;
 }
 
 /* 6 */
@@ -119,7 +119,6 @@ section {
 #mind {
     position: fixed;
     right: 0px;
-    top: 140px;
 }
 
 /* 7 */
@@ -135,12 +134,34 @@ section {
 h1 {
     position: sticky;
     top: 0;
-    z-index: 1;
 }
+
+/* 9 */
+h1 {
+    /* Could be 1, 3000, or another other number larger than zero (I Love You 3000) */
+    z-index: 3000;
+  }
 
 /* Bonus */
 
-h2 {
+/* 3 */
+
+/* 1 */
+#reality {
+    z-index: 4;
+  }
+  
+  /* 2 */
+  #soul {
+    z-index: 2;
+  }
+  #time {
+    z-index: 3;
+  }
+
+  h2 {
     position: sticky;
     top: 65px;
 }
+  
+  
